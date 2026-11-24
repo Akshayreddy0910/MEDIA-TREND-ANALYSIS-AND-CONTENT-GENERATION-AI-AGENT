@@ -1,7 +1,8 @@
-from agents.trend_agent import analyze_trends
-from agents.content_crew import generate_content
-from agents.landing_crew import generate_landing_page
-from database.db import init_db, log_run
+from trend_agent import analyze_trends
+from content_crew import generate_content
+from landing_crew import generate_landing_page
+from db import init_db, log_run
+
 
 def run_pipeline(niche, platforms):
     init_db()
