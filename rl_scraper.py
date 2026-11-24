@@ -1,8 +1,8 @@
 import random
 import json
 import os
-from scrapers.youtube_scraper import fetch_youtube_trends
-from scrapers.twitter_scraper import fetch_twitter_trends
+from youtube_scraper import fetch_youtube_trends
+from twitter_scraper import fetch_twitter_trends
 
 class RLScraperAgent:
     """
