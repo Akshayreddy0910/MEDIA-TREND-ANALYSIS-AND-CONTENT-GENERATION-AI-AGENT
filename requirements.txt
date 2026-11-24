@@ -1,3 +1,6 @@
 
 streamlit
 scikit-learn
+crewai[litellm]
+google-api-python-client
+duckduckgo-search
