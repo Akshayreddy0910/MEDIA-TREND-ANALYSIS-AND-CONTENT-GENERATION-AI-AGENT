@@ -1,6 +1,12 @@
 from crewai import Agent, Task, Crew
 
-llm = "ollama/llama3.1"
+import streamlit as st
+from crewai import LLM
+
+llm = LLM(
+    model="groq/openai/gpt-oss-20b",
+    api_key=st.secrets["GROQ_API_KEY"]
+)
 
 def generate_landing_page(topic):
     lp_strategist = Agent(
