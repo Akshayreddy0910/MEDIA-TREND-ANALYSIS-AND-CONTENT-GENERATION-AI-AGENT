@@ -1,5 +1,5 @@
 from sklearn.feature_extraction.text import TfidfVectorizer
-from scrapers.rl_scraper import rl_supervised_scrape
+from rl_scraper import rl_supervised_scrape
 
 def analyze_trends(keyword, platforms=None):
     """
